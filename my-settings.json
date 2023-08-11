@@ -1,0 +1,56 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "mssql.connections": [
+        {
+            "server": "172.16.16.53",
+            "database": "DBIS_PRE_PROD",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Caputo"
+        }
+    ],
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.sideBar.location": "right",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "git.autofetch": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "errorLens.excludeBySource": [
+        "ts(1239)"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+    },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+        
+    }
+}
